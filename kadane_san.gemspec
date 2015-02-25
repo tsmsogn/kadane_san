@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["tsmsogn@gmail.com"]
   spec.summary       = %q{Solving maximum subarray problem with Kadane's algorithm}
   spec.description   = ""
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/tsmsogn/kadane_san"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
