@@ -1,5 +1,7 @@
 # KadaneSan
 
+[![Build Status](https://travis-ci.org/tsmsogn/kadane_san.svg?branch=master)](https://travis-ci.org/tsmsogn/kadane_san)
+
 Solving maximum subarray problem with Kadane's algorithm
 
 ## Installation
