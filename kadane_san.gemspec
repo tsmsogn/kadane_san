@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = KadaneSan::VERSION
   spec.authors       = ["tsmsogn"]
   spec.email         = ["tsmsogn@gmail.com"]
-  spec.summary       = %q{Solving maximum subarray problem with Kadane's algorithm}
+  spec.summary       = %q{Solving maximum/minimum subarray problem with Kadane's algorithm}
   spec.description   = ""
   spec.homepage      = "https://github.com/tsmsogn/kadane_san"
   spec.license       = "MIT"

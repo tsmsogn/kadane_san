@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/tsmsogn/kadane_san.svg?branch=master)](https://travis-ci.org/tsmsogn/kadane_san)
 
-Solving maximum subarray problem with Kadane's algorithm
+Solving maximum/minimum subarray problem with Kadane's algorithm
 
 ## Installation
 
@@ -24,9 +24,9 @@ Or install it yourself as:
 
     KadaneSan::max_subarray [-5, -1, 6, 4, 9, -6, -7]
     => 19
-
-    KadaneSan.max_subarray [-4, -2, -3, -1]
-    => -1
+    
+    KadaneSan::min_subarray [5, 1, -6, -4, -9, 6, 7]
+    => -19
 
 ## Contributing
 
