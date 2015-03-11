@@ -9,4 +9,13 @@ module KadaneSan
     end
     max_so_far
   end
+
+  def self.min_subarray(a)
+    min_so_far = min_ending_here = 1.0 / 0
+    a.each do |i|
+      min_ending_here = [i, min_ending_here + i].min
+      min_so_far = [min_so_far, min_ending_here].min
+    end
+    min_so_far
+  end
 end
